@@ -12,6 +12,10 @@ Run tests
 
 Builds the app for production
 
+### `npm run lint`
+
+Check the lint rules
+
 ### `npm run storybook` 
 
 Starts Storybook in development mode
