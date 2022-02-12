@@ -1,4 +1,4 @@
-# Running the projext
+# Running the project
 
 ### `npm start`
 
@@ -11,3 +11,7 @@ Run tests
 ### `npm run build`
 
 Builds the app for production
+
+### `npm run storybook` 
+
+Starts Storybook in development mode
