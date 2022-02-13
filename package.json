@@ -23,9 +23,13 @@
     "build": "react-scripts build",
     "lint": "npx eslint src --ext=js,jsx,ts,tsx",
     "test": "react-scripts test",
+    "test:ci": "npm run test -- --ci --watchAll=false --reporters=default --reporters=jest-junit",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
+  },
+  "jest-junit": {
+    "outputDirectory": "test_output"
   },
   "eslintConfig": {
     "extends": [
@@ -73,6 +77,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "jest-junit": "^13.0.0",
     "webpack": "^5.68.0"
   }
 }

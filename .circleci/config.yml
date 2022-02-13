@@ -34,7 +34,9 @@ jobs:
           command: npm run lint
       - run:
           name: Run tests
-          command: npm test
+          command: npm run test:ci
+      - store_test_results:
+          path: test_output
 
 workflows:
   # Below is the definition of your workflow.
