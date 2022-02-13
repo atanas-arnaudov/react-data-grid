@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/atanas-arnaudov/react-data-grid/tree/main.svg?style=svg)](https://circleci.com/gh/atanas-arnaudov/react-data-grid/tree/main)
+
 # Running the project
 
 ### `npm start`
